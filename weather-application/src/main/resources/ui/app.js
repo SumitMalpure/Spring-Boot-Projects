@@ -17,7 +17,7 @@ function getOption() {
 
     console.log(cityInput);
 
-    fetch('http://localhost:8083/weather-forecast/city/' + cityInput)
+    fetch('http://localhost:8080/weather-forecast/city/' + cityInput)
         .then(response => response.json())
         .then(data => {
 
