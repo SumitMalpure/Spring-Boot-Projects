@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.ratnamit.weatherapp.data;
+
+/**
+ * @author sumitmalpure1089
+ *
+ */
+public class WeatherInfo {
+
+	private String temprature;
+	private String cityName;
+	
+}

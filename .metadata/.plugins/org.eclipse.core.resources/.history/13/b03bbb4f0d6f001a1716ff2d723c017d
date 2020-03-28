@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package com.ratnamit.weatherapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.ratnamit.weatherapp.data.WeatherInfo;
+
+/**
+ * @author sumitmalpure1089
+ *
+ */
+@RestController
+@RequestMapping("/weatherapp")
+public class WeatherAppController {
+
+	@Autowired
+	RestTemplate restTemplate;
+	
+	@RequestMapping("/cityId")
+	public WeatherInfo getWeatherInfo(@PathVariable("cityId") String cityId){
+		
+		WeatherInfo weatherInfo= new WeatherInfo();
+
+		return WeatherInfo;
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.ratnamit.springbootdemo.configuration;
+
+public class SwaggerConfig {
+
+}

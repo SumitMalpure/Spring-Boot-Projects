@@ -1,0 +1,3 @@
+api.key=50a7aa80fa492fa92e874d23ad061374
+server.port=8083
+spring.application.name=weather-app-service

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.ratnamit.springbootdemo.controller;
+
+/**
+ * @author sumitmalpure1089
+ *
+ */
+public class WeatherForecastController {
+
+}

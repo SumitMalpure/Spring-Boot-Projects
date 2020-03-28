@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.ratnamit.weatherapp.controller;
+
+/**
+ * @author sumitmalpure1089
+ *
+ */
+public class WeatherAppController {
+
+}

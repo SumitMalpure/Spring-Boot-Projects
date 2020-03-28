@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;springboot_demo/src/main/java/com/ratnamit/springbootdemo/configuration.java&apos;" deleteContents="false" description="Delete resource &apos;springboot_demo/src/main/java/com/ratnamit/springbootdemo/configuration.java&apos;" element1="/springboot_demo/src/main/java/com/ratnamit/springbootdemo/configuration.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1585071098635"/>
+</session>

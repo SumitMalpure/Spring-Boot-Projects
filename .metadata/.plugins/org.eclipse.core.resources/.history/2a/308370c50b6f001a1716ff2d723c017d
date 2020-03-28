@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.ratnamit.weatherapp.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author sumitmalpure1089
+ *
+ */
+@RestController
+public class WeatherAppController {
+
+}
