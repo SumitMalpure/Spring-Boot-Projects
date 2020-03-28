@@ -8,6 +8,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -23,6 +24,7 @@ import com.ratnamit.weatherapp.model.OpenWeatherResponse;
  * @author sumitmalpure1089
  *
  */
+@CrossOrigin("*")
 @RestController
 @RequestMapping("weather-forecast")
 public class WeatherAppController {
@@ -52,7 +54,7 @@ public class WeatherAppController {
 				if(forecast.getMain().getTemp_max()>40) {
 					forecastMessage="Use Sunscreen";
 				}
-				if(forecastMessage.isEmpty() && forecast.getWeather()!=null && forecast.getWeather().size()>0) {
+				if(forecastMessage.isEmpty() && forecast.getWeather()!=null && forecast.getWeather().get(0).getMain().contains("Rain")) {
 					forecastMessage+=" Carry Umbrella";
 				}
 				forecastUIList.add(forecastUI);
