@@ -32,7 +32,6 @@ import com.ratnamit.weatherapp.controller.WeatherAppController;
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 @TestExecutionListeners(value = {
 		DirtiesContextTestExecutionListener.class }, mergeMode = MergeMode.MERGE_WITH_DEFAULTS)
-@ActiveProfiles(profiles = "TEST")
 @SpringBootTest
 public class WeatherAppControllerTest {
 

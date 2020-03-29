@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f8f8f8;    
+}
+
+.input{
+    text-align: center;
+    margin: 100px auto; 
+}
+
+.input[type="submit"]{
+   background: #e7e7e7;
+   border: none;
+   border-radius: 1px;
+   font-weight: bold;
+   font-size: 20px;
+   height: 55px;
+}
+
+.input input[type="text"]{
+    width: 300px;
+    background: #e7e7e7;
+    font-weight:bold;
+    font-size: 20px;
+
+}
+
+.card{
+    width: 50%;
+    margin: 50px auto;
+    height: 40vh;
+    border-radius: 2px;
+}
+
+.close{
+    float: right;
+    cursor: pointer;
+    margin-right: 20px;
+}

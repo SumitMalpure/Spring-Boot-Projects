@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Weather Forecast UI</title>
+    <link rel="stylesheet" href="/css/style.css"></link>
+</head>
+
+<body>
+    <div class="input">
+        <select  name="city" class="citydropdown">
+            <option value="London">London</option>
+            <option value="Pune">Pune</option>
+            <option value="Bangalore">Bangalore</option>
+          </select>
+        <input type="submit" value="Submit" class="submit" onclick="getOption()"/>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h1 class="name" id="name"></h1>
+            <p>Forecast Message is:<p id="forecastMsg"></p></p>
+        </div>
+        <div id="forecastcontainer"></div>
+    </div>
+<script src="/js/app.js"></script>
+</body>
+
+</html>

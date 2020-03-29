@@ -26,7 +26,6 @@ import com.ratnamit.weatherapp.model.OpenWeatherResponse;
  */
 @CrossOrigin("*")
 @RestController
-@RequestMapping("weather-forecast")
 public class WeatherAppController {
 
 	@Autowired
